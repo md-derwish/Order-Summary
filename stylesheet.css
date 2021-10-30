@@ -1,0 +1,146 @@
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(222, 243, 242)
+}
+
+section {
+    width: 60vw;
+    height: 80vh;
+    background-color: #fcfff8;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    border-bottom-left-radius: 10px;
+}
+
+/* hero illustrator */
+.top-pic {
+    width: 100%;
+    background-color: black;
+    content: url(/images/illustration-hero.svg);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* .hero {
+    width: 100%;
+} */
+
+/* paragraph */
+.para.div {
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    /* text-align: center; */
+    font-size: 100%;
+    background-color: #fcfff8;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.texted {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(165, 177, 177);
+}
+/* price division */
+.price {
+    width: 100%;
+    background-color: hsl(224, 23%, 55%)
+    margin: 0;
+    padding: 20px 2px 20px 2px;
+    border: 0;
+    font-size: large;
+    text-align: center;
+    display: flex;
+}
+
+.ach {
+    text-decoration: none;
+}
+
+/* img {
+    float: left;
+    margin-left: 20px;
+} */
+
+.icon {
+    /* position:absolute; */
+    /* background-color: rgb(5, 128, 128); */
+    margin: auto;
+    padding: 15px;
+
+}
+
+.text {
+    /* background-color: rgb(206, 200, 200); */
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.cost {
+    color: rgb(165, 177, 177);
+}
+
+.anchor{
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 10px;
+}
+
+
+/* buttons */
+.payment {
+    width: 100%;
+    background-color: #fcfff8;
+    text-align: center;
+    display: grid;
+    padding: 0;
+    /* border: 20px; */
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.paybttn {
+    /* display: grid; */
+    background-color: blueviolet;
+    border: none;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    padding: 12px 42px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 3px 5px 15px #a5a1a1;
+    cursor: auto;
+}
+
+.paybttn:hover {
+    background-color: rgb(146, 56, 230);
+    transition-duration: 0.05ms
+
+}
+
+.no {
+    text-align: center;
+}
+
+.a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
